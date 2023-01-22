@@ -1,0 +1,7 @@
+.header { 
+    height: inherit;
+    display: flex;
+    width: 100%;
+    background-color: azure;
+    
+}

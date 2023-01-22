@@ -2,18 +2,13 @@ import styles from './Header.module.css'
 
 const Header = () => {
     return (
-        <nav >
-            <div>
-                <i className="fab fa-facebook fa-3x"></i>
-            </div>
+        <header className='header'>
+            <section>
+            </section>
 
-            <div>
-                <label></label>
-            </div>
-
-            <div></div>
-            <div></div>
-        </nav>
+            <nav >
+            </nav>
+        </header>
     );
 };
 
