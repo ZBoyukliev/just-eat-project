@@ -1,7 +1,61 @@
 .header { 
-    height: inherit;
-    display: flex;
+    box-shadow: 15px 15px 15px #ccc;
+    height: 104px;
+    display: block;
     width: 100%;
-    background-color: azure;
-    
+    background-color: white;
+}
+
+section {
+    height: 48px;
+    padding: 12px 16px;
+    display: block;
+    box-sizing: border-box;
+}
+
+nav {
+    display: block;
+    box-sizing: border-box;
+    height: 56px;
+    padding: 0px 16px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 250px;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 12px;
+    display: block;
+    width: 100px;
+}
+
+.navBtn {
+    text-decoration: none;
+    border-radius: 16px;
+    border: transparent 1px solid;
+    font-size: 18px;
+    margin-left: 24px;
+    text-decoration: none;   
+    padding: 5px 3px;
+    font-family: "Open sans";
+}
+
+.navBtn:hover {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 40px;
+    /* outline: 0; */
+    background-color: #ccc;
+}
+
+.logo {
+
 }
