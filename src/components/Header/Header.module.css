@@ -51,8 +51,9 @@ nav ul {
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    list-style-type: none;
 }
+
+ 
 
 nav ul li {
     padding: 12px;
@@ -66,17 +67,17 @@ nav ul li {
     border: transparent 1px solid;
     font-size: 18px;
     margin-left: 24px;
-    text-decoration: none;
     padding: 5px 3px;
     font-family: "Open sans";
+}
+
+ li {
+    list-style-type: none;
 }
 
 .navBtn:hover {
     border: 1px solid #ccc;
     cursor: pointer;
     border-radius: 40px;
-    /* outline: 0; */
-    background-color: rgb(235, 224, 224);
+   background-color:  rgb(235, 224, 224);
 }
-
-.logo {}

@@ -1,0 +1,52 @@
+.findRestaurant{
+    width: 100%;
+    height: 670px;
+}
+
+.leftSide {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.rightSide {
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #ff8000;
+}
+
+.search {
+    margin-left: 50px;
+    margin-top: 200px;
+    display: block;
+    height: 400px;
+    width: 400px;
+}
+
+.search input {
+    border-radius: 40px;
+    border: 0.5px solid black;
+    background-color:white;
+    width: 400px;
+    height: 50px;
+    background-image: url(https://www.freeiconspng.com/thumbs/location-icon-png/orange-location-icon-png-18.png);
+    background-size:  40px;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 350px;
+    font-size: 23px;
+}
+
+.image {
+    margin-left: 50px;
+    margin-top: 200px;
+    display: block;
+    height: 400px;
+    width: 400px;
+}
+
+.image img {
+    height: 254px;
+    width: 540px;
+}
+
+
