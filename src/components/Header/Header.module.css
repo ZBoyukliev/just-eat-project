@@ -1,4 +1,4 @@
-.header { 
+.header {
     box-shadow: 15px 15px 15px #ccc;
     height: 104px;
     display: block;
@@ -9,8 +9,9 @@
 section {
     height: 48px;
     padding: 12px 16px;
-    display: block;
+    display: flex;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 nav {
@@ -20,7 +21,29 @@ nav {
     padding: 0px 16px;
     align-items: center;
     justify-content: center;
-    margin-right: 250px;
+    /* margin-right: 250px; */
+}
+
+section div {
+    display: block;
+}
+
+.inputField {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.inputField input {
+    border-radius: 16px;
+    border: 0.5px solid black;
+    background-color: rgb(235, 224, 224);
+    width: 250px;
+    height: 25px;
+    background-image: url(https://www.freeiconspng.com/thumbs/location-icon-png/orange-location-icon-png-18.png);
+    background-size:  20px;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 230px;
 }
 
 nav ul {
@@ -34,8 +57,8 @@ nav ul {
 nav ul li {
     padding: 12px;
     display: block;
-    width: 100px;
 }
+
 
 .navBtn {
     text-decoration: none;
@@ -43,7 +66,7 @@ nav ul li {
     border: transparent 1px solid;
     font-size: 18px;
     margin-left: 24px;
-    text-decoration: none;   
+    text-decoration: none;
     padding: 5px 3px;
     font-family: "Open sans";
 }
@@ -53,9 +76,7 @@ nav ul li {
     cursor: pointer;
     border-radius: 40px;
     /* outline: 0; */
-    background-color: #ccc;
+    background-color: rgb(235, 224, 224);
 }
 
-.logo {
-
-}
+.logo {}
