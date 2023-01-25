@@ -40,7 +40,7 @@ section div {
     width: 250px;
     height: 25px;
     background-image: url(https://www.freeiconspng.com/thumbs/location-icon-png/orange-location-icon-png-18.png);
-    background-size:  20px;
+    background-size: 20px;
     background-repeat: no-repeat;
     outline: 0;
     background-position: 230px;
@@ -53,7 +53,7 @@ nav ul {
     justify-content: center;
 }
 
- 
+
 
 nav ul li {
     padding: 12px;
@@ -71,7 +71,7 @@ nav ul li {
     font-family: "Open sans";
 }
 
- li {
+li {
     list-style-type: none;
 }
 
@@ -79,5 +79,5 @@ nav ul li {
     border: 1px solid #ccc;
     cursor: pointer;
     border-radius: 40px;
-   background-color:  rgb(235, 224, 224);
+    background-color: rgb(235, 224, 224);
 }

@@ -1,17 +1,51 @@
-.findRestaurant{
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.findRestaurant {
+    margin-bottom: 50px;
+    margin: 0px;
+    padding: 33px 0px;
     width: 100%;
     height: 670px;
+    box-sizing: border-box;
+    /* background-color: #ff8000; */
+    /* background-image: -webkit-linear-gradient(30deg, rgb(245, 237, 237) 30%, #ff8000 70%); */
 }
 
 .leftSide {
+    height: 100%;
     width: 50%;
-    box-sizing: border-box;
+    /* background-color: rgb(245, 237, 237); */
 }
 
 .rightSide {
+    height: 100%;
     width: 50%;
-    box-sizing: border-box;
     background-color: #ff8000;
+
+}
+
+.rightSide svg {
+    top: 137px;
+    left: 620px;
+    height: 604px;
+    width: 9vw;
+    background-color: #ff8000;
+    display: block;
+    transform: skew(-8deg) scale(1);
+    position: absolute;
 }
 
 .search {
@@ -25,11 +59,11 @@
 .search input {
     border-radius: 40px;
     border: 0.5px solid black;
-    background-color:white;
+    background-color: white;
     width: 400px;
     height: 50px;
     background-image: url(https://www.freeiconspng.com/thumbs/location-icon-png/orange-location-icon-png-18.png);
-    background-size:  40px;
+    background-size: 40px;
     background-repeat: no-repeat;
     outline: 0;
     background-position: 350px;
@@ -50,3 +84,18 @@
 }
 
 
+/* ------------------------------------------------------------------------ */
+
+.basicInfo div {
+    width: 100%;
+}
+
+.basicInfo div h3{
+    text-align: center;
+}
+
+.basicInfo div h2{
+    text-align: center;
+    color: #ff8000;
+    font-size: 40px;
+}
