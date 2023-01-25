@@ -20,14 +20,11 @@ body {
     width: 100%;
     height: 670px;
     box-sizing: border-box;
-    /* background-color: #ff8000; */
-    /* background-image: -webkit-linear-gradient(30deg, rgb(245, 237, 237) 30%, #ff8000 70%); */
 }
 
 .leftSide {
     height: 100%;
     width: 50%;
-    /* background-color: rgb(245, 237, 237); */
 }
 
 .rightSide {

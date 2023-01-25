@@ -81,3 +81,8 @@ li {
     border-radius: 40px;
     background-color: rgb(235, 224, 224);
 }
+
+.navField a i {
+    margin-right: 40px;
+    color: #ff8000;
+}
