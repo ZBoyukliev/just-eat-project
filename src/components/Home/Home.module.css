@@ -16,7 +16,7 @@ body {
 .findRestaurant {
     margin-bottom: 50px;
     margin: 0px;
-    padding: 33px 0px;
+    padding: 0px 0px;
     width: 100%;
     height: 670px;
     box-sizing: border-box;
@@ -24,24 +24,35 @@ body {
 
 .leftSide {
     height: 100%;
-    width: 50%;
+    width: 60%;
+    background-color: #f5f3f1;
+}
+
+h1 {
+    font-size: 40px;
+    color: #242e30;
+}
+
+h2 {
+    font-size: 30px;
+    color: #242e30;
 }
 
 .rightSide {
     height: 100%;
-    width: 50%;
+    width: 40%;
     background-color: #ff8000;
-
+    z-index: 1;
 }
 
 .rightSide svg {
-    top: 137px;
-    left: 620px;
-    height: 604px;
-    width: 9vw;
+    top: 66px;
+    left: 690px;
+    height: 745px;
+    width: 24vw;
     background-color: #ff8000;
     display: block;
-    transform: skew(-8deg) scale(1);
+    transform: skew(-9deg) scale(0.9);
     position: absolute;
 }
 
@@ -71,8 +82,13 @@ body {
     margin-left: 50px;
     margin-top: 200px;
     display: block;
-    height: 400px;
-    width: 400px;
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    z-index: 2;
+    top: 65%;
+    left: 65%;
+    transform: translate(-65%, -65%);
 }
 
 .image img {
