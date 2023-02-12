@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
 html {
     box-sizing: border-box;
 }
@@ -11,6 +13,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .findRestaurant {
@@ -168,21 +171,22 @@ h2 {
     height: 100%;
     width: 65%;
     text-align: center;
+    align-items: center;
 }
 .links-to-apps .left-side h2 {
-    font-size: 50px;
+    font-size: 42px;
     padding-top: 60px;
     margin-bottom: 0;
     margin-left: 5px auto;
     color: #242e30;
-    font-weight: bolder;
+    font-weight: 800;
 }
 .links-to-apps .left-side h3 {
     font-size: 28px;
     margin-right: 80px;
     color: #242e30;
     margin-top: 15px;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 .links-to-apps .left-side img {
@@ -200,7 +204,25 @@ h2 {
 .links-to-apps .right-side img {
     width: 320px;
     height: 480px;
-    padding-top: 20px;
     justify-content: center;
     align-items: center;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* footer */
+
+footer {
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    background-color: #efedea;
+    text-align: center;
+}
+
+footer i {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-bottom: 22px;
 }
