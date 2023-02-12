@@ -3,7 +3,15 @@
     height: 104px;
     display: block;
     width: 100%;
+    position: sticky;
+    z-index: 150;
+    top: 0;
+    left: 0;
     background-color: white;
+}
+
+body {
+    position: relative;
 }
 
 section {
@@ -21,7 +29,6 @@ nav {
     padding: 0px 16px;
     align-items: center;
     justify-content: center;
-    /* margin-right: 250px; */
 }
 
 section div {
@@ -53,13 +60,10 @@ nav ul {
     justify-content: center;
 }
 
-
-
 nav ul li {
     padding: 12px;
     display: block;
 }
-
 
 .navBtn {
     text-decoration: none;
