@@ -95,6 +95,7 @@ h2 {
     height: 254px;
     width: 540px;
 }
+
 /* ------------------------------------------------------------------------ */
 
 .basicInfo {
@@ -107,10 +108,10 @@ h2 {
 }
 
 .how-to-order {
-     display: flex;
-     width: 100%;
-     height: 100%;
-     padding: 0 120px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0 120px;
 }
 
 .basicInfo .how-to-order .choise {
@@ -119,13 +120,15 @@ h2 {
     align-items: center;
     width: 30%;
     height: 100%;
+    padding-bottom: 40px;
 }
+
 
 .basicInfo div {
     width: 100%;
 }
 
-.basicInfo div h3{
+.basicInfo div h3 {
     text-align: center;
     font-weight: 600;
     font-size: 20px;
@@ -134,12 +137,21 @@ h2 {
     color: #242e30;
 }
 
-.basicInfo div h2{
+.basicInfo .how-to-order .choise h3 {
+    margin-top: 15px;
+    padding-top: 0;
+}
+
+.basicInfo .how-to-order .choise p {
+    color: #242e30;
+}
+
+.basicInfo div h2 {
     margin-top: 0;
     text-align: center;
-    color: #ff8000;
+    color: #f36805;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 
@@ -150,4 +162,45 @@ h2 {
     height: 100%;
     width: 100%;
     background-color: #c1dade;
+}
+
+.links-to-apps .left-side {
+    height: 100%;
+    width: 65%;
+    text-align: center;
+}
+.links-to-apps .left-side h2 {
+    font-size: 50px;
+    padding-top: 60px;
+    margin-bottom: 0;
+    margin-left: 5px auto;
+    color: #242e30;
+    font-weight: bolder;
+}
+.links-to-apps .left-side h3 {
+    font-size: 28px;
+    margin-right: 80px;
+    color: #242e30;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+.links-to-apps .left-side img {
+    height: 50px;
+    width: 160px;
+    margin-right: 16px;
+    margin-top: 20px;
+}
+
+.links-to-apps .right-side {
+    height: 100%;
+    width: 35%;
+}
+
+.links-to-apps .right-side img {
+    width: 320px;
+    height: 480px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
 }
