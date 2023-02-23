@@ -1,0 +1,115 @@
+
+
+.findRestaurant {
+    margin-bottom: 50px;
+    margin: 0px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 670px;
+    box-sizing: border-box;
+}
+
+.findRestaurant .leftSide {
+    height: 100%;
+    width: 60%;
+    background-color: #f5f3f1;
+}
+
+.findRestaurant .leftSide h1 {
+    font-size: 40px;
+    font-weight:900;
+    color: #242e30;
+    width: 600px;
+}
+
+.findRestaurant .leftSide h2 {
+    font-size: 30px;
+    color: #242e30;
+    font-size: 30px;
+    width: 600px;
+}
+
+.findRestaurant .leftSide .search {
+    margin-left: 50px;
+    margin-top: 200px;
+    display: block;
+    height: 400px;
+    width: 400px;
+}
+
+.findRestaurant .leftSide .search input {
+    border-radius: 40px 0px 0px 40px;
+    border: 0.5px solid black;
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    background-image: url(https://www.freeiconspng.com/thumbs/location-icon-png/orange-location-icon-png-18.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 350px;
+    font-size: 23px;
+    border-right-style: hidden;
+}
+
+.findRestaurant .leftSide .search .search-btn {
+    display: flex;
+}
+
+.findRestaurant .leftSide .search .search-btn .search-span {
+    border-radius: 0px 40px 40px 0px;
+    border: 0.5px solid black;
+    background-color: white;
+    width: 240px;
+    height: 50px;
+    border-left-style: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.findRestaurant .leftSide .search .search-btn  .btn {
+    background-color: #ff8000;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+    border: 0;
+    margin-top: 4px;
+    margin-right: 6px;
+    padding: 10px 18px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+.findRestaurant .rightSide {
+    height: 100%;
+    width: 40%;
+    background-color: #ff8000;
+    z-index: 1;
+}
+
+.findRestaurant .rightSide svg {
+    top: 1.45%;
+    left: 52%;
+    height: 744px;
+    width: 24vw;
+    background-color: #ff8000;
+    transform: skew(-9deg) scale(0.9);
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+}
+
+.findRestaurant .rightSide .image {
+    left: 65%;
+    top: 30%;
+    display: block;
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+.findRestaurant .rightSide .image img {
+    height: 254px;
+    width: 540px;
+}

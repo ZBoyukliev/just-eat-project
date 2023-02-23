@@ -1,0 +1,48 @@
+
+.links-to-apps {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #c1dade;
+}
+
+.links-to-apps .left-side {
+    height: 100%;
+    width: 65%;
+    text-align: center;
+    align-items: center;
+}
+.links-to-apps .left-side h2 {
+    font-size: 42px;
+    padding-top: 60px;
+    margin-bottom: 0;
+    margin-left: 5px auto;
+    color: #242e30;
+    font-weight: 800;
+}
+.links-to-apps .left-side h3 {
+    font-size: 28px;
+    margin-right: 80px;
+    color: #242e30;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.links-to-apps .left-side img {
+    height: 50px;
+    width: 160px;
+    margin-right: 16px;
+    margin-top: 20px;
+}
+
+.links-to-apps .right-side {
+    height: 100%;
+    width: 35%;
+}
+
+.links-to-apps .right-side img {
+    width: 320px;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+}

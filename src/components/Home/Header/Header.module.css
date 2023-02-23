@@ -1,0 +1,33 @@
+.header {
+    box-shadow: 15px 15px 15px #c4c3c3;
+    height: 10vh;
+    display: block;
+    width: 100%;
+    /* position: sticky;
+    z-index: 150;
+    top: 0;
+    left: 0; */
+    background-color: white;
+}
+
+body {
+    position: relative;
+}
+
+section {
+    padding: 12px 16px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.navField a i {
+    margin-right: 20px;
+    color: #ff8000;
+    font-size: 35px;
+}
+
+.navField a span{
+    margin-right: 10px;
+    color: black;
+}
