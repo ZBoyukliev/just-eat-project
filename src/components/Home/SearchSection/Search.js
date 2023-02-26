@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Search.module.css'
 
 const Search = () => {
@@ -12,7 +13,7 @@ const Search = () => {
                             <input placeholder='Адрес, 111 Bulgaria Blvd. '></input>
                         </div>
                         <span className={styles[`search-span`]}>
-                            <button className={styles[`btn`]}>Търсене</button>
+                          <Link to='/orderpage'> <button className={styles[`btn`]}>Търсене</button></Link> 
                         </span>
                     </div>
                 </div>

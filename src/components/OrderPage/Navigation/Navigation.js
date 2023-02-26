@@ -1,5 +1,6 @@
+import styles from './Navigation.module.css'
 
-export default Nnigation = () => {
+const Navigation = () => {
     return (
         <nav >
                 {/* <div className={styles[`inputField`]}>
@@ -19,5 +20,7 @@ export default Nnigation = () => {
 
         </ul>
     </nav>
-    )
-}
+    );
+};
+
+export default Navigation;
